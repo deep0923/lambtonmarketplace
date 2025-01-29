@@ -15,6 +15,7 @@ function LoginPage() {
   return (
     <div className="login-page">
       <h2>Login to Lambton Marketplace</h2>
+      <h3>Created new branch</h3>
       <form onSubmit={handleLogin}>
         <input
           type="email"
